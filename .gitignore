@@ -1,0 +1,51 @@
+### Gradle ###
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/**/build/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/**/out/
+
+.run/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.eclipse/
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/**/bin/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Local NSUK / delight jars for compile and runClient ###
+libs/*.jar
+.tmp/
+
+### Minecraft Modding ###
+run/
+!**/src/**/run/
+**/src/generated/**/.cache/
+repo/
+!**/src/**/repo/
+
+### Local logs / crash dumps ###
+日志/
+*.log
+
+### Third-party crop research dumps ###
+tools/crop_research/

@@ -1,0 +1,18 @@
+{
+  "_comment": "Copy this file, rename it, and fill in a real delight mod. Files starting with _ are ignored by the loader if mod is not loaded. Remove this file when unused.",
+  "mod": "exampledelight",
+  "prefix": "ex",
+  "label": "source.nsukdelightcropaddons.exampledelight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "example",
+      "seed": "exampledelight:example_seeds",
+      "plant": "exampledelight:example",
+      "harvest_blocks": [],
+      "layout": "full",
+      "waterlog": false,
+      "allow_non_crop_block": false
+    }
+  ]
+}
